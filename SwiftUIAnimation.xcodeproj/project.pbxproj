@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2B520125C7B41500C298C4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B520025C7B41500C298C4 /* LoadingView.swift */; };
+		DF2B520425C7B77700C298C4 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */; };
 		DF7482C525BE9C2300DFD747 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482C425BE9C2300DFD747 /* SwiftUIAnimationApp.swift */; };
 		DF7482C725BE9C2300DFD747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482C625BE9C2300DFD747 /* ContentView.swift */; };
 		DF7482C925BE9C2700DFD747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7482C825BE9C2700DFD747 /* Assets.xcassets */; };
 		DF7482CC25BE9C2700DFD747 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7482CB25BE9C2700DFD747 /* Preview Assets.xcassets */; };
+		DF7482D925BE9CA100DFD747 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482D825BE9CA100DFD747 /* ImplicitAnimation.swift */; };
+		DF7482DC25BEA04800DFD747 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482DB25BEA04800DFD747 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF2B520025C7B41500C298C4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 		DF7482C125BE9C2300DFD747 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7482C425BE9C2300DFD747 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		DF7482C625BE9C2300DFD747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF7482C825BE9C2700DFD747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7482CB25BE9C2700DFD747 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF7482CD25BE9C2700DFD747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7482D825BE9CA100DFD747 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		DF7482DB25BEA04800DFD747 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				DF7482C825BE9C2700DFD747 /* Assets.xcassets */,
 				DF7482CD25BE9C2700DFD747 /* Info.plist */,
 				DF7482CA25BE9C2700DFD747 /* Preview Content */,
+				DF7482D825BE9CA100DFD747 /* ImplicitAnimation.swift */,
+				DF7482DB25BEA04800DFD747 /* TestView.swift */,
+				DF2B520025C7B41500C298C4 /* LoadingView.swift */,
+				DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */,
 			);
 			path = SwiftUIAnimation;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7482DC25BEA04800DFD747 /* TestView.swift in Sources */,
+				DF7482D925BE9CA100DFD747 /* ImplicitAnimation.swift in Sources */,
 				DF7482C725BE9C2300DFD747 /* ContentView.swift in Sources */,
+				DF2B520125C7B41500C298C4 /* LoadingView.swift in Sources */,
+				DF2B520425C7B77700C298C4 /* ProgressIndicator.swift in Sources */,
 				DF7482C525BE9C2300DFD747 /* SwiftUIAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
