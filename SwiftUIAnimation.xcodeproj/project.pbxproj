@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF2B520125C7B41500C298C4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B520025C7B41500C298C4 /* LoadingView.swift */; };
 		DF2B520425C7B77700C298C4 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */; };
+		DF2B520725C9BF1800C298C4 /* DotLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B520625C9BF1800C298C4 /* DotLoading.swift */; };
 		DF7482C525BE9C2300DFD747 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482C425BE9C2300DFD747 /* SwiftUIAnimationApp.swift */; };
 		DF7482C725BE9C2300DFD747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7482C625BE9C2300DFD747 /* ContentView.swift */; };
 		DF7482C925BE9C2700DFD747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7482C825BE9C2700DFD747 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		DF2B520025C7B41500C298C4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		DF2B520625C9BF1800C298C4 /* DotLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoading.swift; sourceTree = "<group>"; };
 		DF7482C125BE9C2300DFD747 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7482C425BE9C2300DFD747 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		DF7482C625BE9C2300DFD747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				DF7482DB25BEA04800DFD747 /* TestView.swift */,
 				DF2B520025C7B41500C298C4 /* LoadingView.swift */,
 				DF2B520325C7B77700C298C4 /* ProgressIndicator.swift */,
+				DF2B520625C9BF1800C298C4 /* DotLoading.swift */,
 			);
 			path = SwiftUIAnimation;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7482DC25BEA04800DFD747 /* TestView.swift in Sources */,
+				DF2B520725C9BF1800C298C4 /* DotLoading.swift in Sources */,
 				DF7482D925BE9CA100DFD747 /* ImplicitAnimation.swift in Sources */,
 				DF7482C725BE9C2300DFD747 /* ContentView.swift in Sources */,
 				DF2B520125C7B41500C298C4 /* LoadingView.swift in Sources */,

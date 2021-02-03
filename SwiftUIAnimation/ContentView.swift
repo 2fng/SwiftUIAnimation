@@ -12,6 +12,12 @@ struct ContentView: View {
         VStack {
             ImplicitAnimation()
             
+            Spacer()
+            
+            ProgressIndicator()
+            
+            Spacer()
+            
             TestView()
         }
     }
